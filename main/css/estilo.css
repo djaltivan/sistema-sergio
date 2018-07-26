@@ -1,0 +1,184 @@
+﻿@font-face { font-family: Helvetica, Arial; src: url('GOTHIC.ttf');}
+body{
+	background-size: 100% 140px;
+	background-repeat: no-repeat;
+	padding: 20px;
+	font-family: Helvetica, Arial;
+	color: #000;
+	font-size: 1em;
+}
+
+body-desativado{
+	background-image: url("../img/fundo2.png"), url("../img/fundo0.png");
+	background-size: 100% 70px, 100% 140px;
+	background-position: right bottom, left top;
+	background-repeat: no-repeat;
+	padding: 20px;
+	font-family: Helvetica, Arial;
+	color: #00008B;
+	font-size: 1em;
+}
+
+h1{
+	font-family: Helvetica, Arial;
+	color: #000;
+}
+
+h2{
+	font-family: Helvetica, Arial;
+	color: #00008B;
+	font-size: 1em;
+	margin-bottom: 0.67em;
+	font-weight: bold;
+}
+
+h3{
+	font-family: Helvetica, Arial;
+	color: #00008B;
+	font-size: 0.7em;
+	margin-bottom: 0.67em;
+	font-weight: bold;
+}
+
+h4{
+	font-family: Helvetica, Arial;
+	color: #00008B;
+	font-size: 1em;
+	margin-bottom: 0.67em;
+	font-weight: bold;
+}
+
+.linha{
+	width: 1500px;
+	padding: 5px;
+	height: 110px;
+	display: table;
+}
+
+.tile{
+	height: 159px;
+	width: 200px;
+	float: left;
+	margin: 0 5px 0 0;
+	padding: 2px;
+	text-align: center;
+}
+
+.prata{
+	background-image: url("../img/flag.png");
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.tile img{
+	height: 80px;
+	width: 80px;
+	margin: 20px 22px 0 22px;
+}
+
+.linha2{
+	width: 1500px;
+	padding: 5px;
+	height: 50px;
+	display: table;
+}
+
+.tile2{
+	height: 75px;
+	width: 100px;
+	float: left;
+	margin: 0 5px 0 0;
+	padding: 2px;
+	text-align: center;
+}
+
+.prata2{
+	background-image: url("../img/flag.png");
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.tile2 img {
+	height: 30px;
+	width: 30px;
+	margin: 5px 5px 0 5px;
+}
+
+.tile3{
+	height: 75px;
+	width: 815px;
+	float: left;
+	margin: 0 5px 0 0;
+	padding: 2px;
+	text-align: center;
+}
+
+.prata3{
+	background-image: url("../img/banner.png");
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.tile3 img {
+	height: 30px;
+	width: 30px;
+	margin: 5px 5px 0 5px;
+}
+
+.selecionado{
+	background-image: url("../img/flag2.png");
+}
+
+.linha4{
+	width: auto;
+	padding: 5px;
+	height: 50px;
+	display: table;
+}
+
+.tile4{
+	height: 75px;
+	width: 100px;
+	float: left;
+	margin: 0 5px 0 0;
+	padding: 2px;
+	text-align: center;
+}
+
+.prata4{
+	background-image: url("../img/flag2.png");
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.tile4 img {
+	height: 30px;
+	width: 30px;
+	margin: 5px 5px 0 5px;
+}
+
+.tile5{
+	height: 75px;
+	width: 100px;
+	float: left;
+	margin: 0 5px 0 0;
+	padding: 2px;
+	text-align: center;
+}
+
+.prata5-desativado{
+	background-image: url("../img/flag.png");
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.tile5 img {
+	width: 90px;
+	height: 44px;
+	margin: 15px 5px 0 5px;
+}
